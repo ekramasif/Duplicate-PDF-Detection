@@ -45,7 +45,6 @@ For each set of duplicate files, the script will automatically propose to **keep
 
 The "first encountered" file in a duplicate set is determined by the order in which files are listed by the operating system when the script scans the directory (`Path.iterdir()`) and subsequently processed. While generally consistent for a given run, this order might not be strictly alphabetical or by date across all systems or if files are added/removed between scans.
 
-If you need a more deterministic way to choose which file to keep (e.g., always the oldest, or shortest name), the script logic would need to be modified accordingly (see previous versions of the script for examples of sorting).
 
 ## Disclaimer
 
