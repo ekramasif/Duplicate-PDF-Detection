@@ -24,7 +24,7 @@ For each set of duplicate files, the script will automatically propose to **keep
 3.  **Open Terminal/Command Prompt:** Navigate to the directory where you saved the script.
 4.  **Run the Script:**
     ```bash
-    python dedupe_pdfs_auto_first.py
+    python main.py
     ```
 5.  **Enter Folder Path:** When prompted, enter the full path to the folder containing the PDF files you want to check.
     ```
